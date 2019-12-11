@@ -1,0 +1,43 @@
+// collin gros
+// 11/02/2019
+
+
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 21
+
+
+    defaultConfig {
+        applicationId 'com.example.helloworld'
+
+        minSdkVersion 21
+        // just started learning about differences between API levels,
+        // and figure after reading a stackoverflow question that
+        // the minSdkVersion for personal projects is usually set
+        // to 21, though maybe my app could work at the default (1)
+
+        versionCode 1
+        versionName "1.0"
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            useProguard false
+
+            // omitting proguardFiles (using gradle version 5.6.3,
+            // R8 is enabled, will come back and add it if i
+            // have any issues
+        }
+    }
+}
+
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:appcompat-v7:21.0.0'
+} 
