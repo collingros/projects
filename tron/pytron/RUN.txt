@@ -1,0 +1,3 @@
+on ubuntu:
+    sudo apt install python3-sdl2
+then execute with python3

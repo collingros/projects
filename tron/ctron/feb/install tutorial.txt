@@ -1,0 +1,5 @@
+1. copy bin, include, and lib from SDL2-devel-2.0.0-mingw.tar.gz from sdl2 website
+2. change dir in make.c
+3. gcc make.c -o make
+4. copy sdl2.dll from bin
+5. run 01.exe

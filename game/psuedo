@@ -1,0 +1,141 @@
+class Game;
+    /**
+  	 * init 
+  	 * 
+  	 * initilze sdl functions, assigning window and renderer to values we can use later
+  	 * create new data object
+  	 * create new screen object (requires some values from data.settings)
+  	 */
+
+    /**
+     * read_events
+     * 
+     * for each sdl event, execute appropriate function
+     */
+
+	/**
+	 * listen
+	 * 
+	 * listen for client info and save appropriate info in some data strcut
+	 * to keep track of change in input
+	 */
+
+class Data;
+	/**
+	 * init
+	 * 
+	 * read_settings
+	 * init_players
+	 * init_map
+	 */
+
+	/**
+	 * read_settings
+	 * 
+	 * get various settings for controls, window sizes, game settings from a text
+	 * file and store into variable in data class
+	 */
+
+	/**
+	 * init_players
+	 * 
+	 * create players from settings
+	 */
+
+	/**
+	 * init_map
+	 * 
+	 * create a map from settings
+	 */
+
+
+class Screen;
+  	/**
+  	 * init
+  	 * 
+  	 * create SDL renderer and window variables using settings from data
+  	 */
+
+    /**
+     * render_players
+     * 
+     * render all player objects
+     */
+
+  	/**
+  	 * render_map
+  	 * 
+  	 * render the map object
+  	 */
+
+
+class Map;
+    /**
+     * init
+     * 
+     * create a map with empty spots for cells (random), mapping a few spots
+     * as player spawn points
+     */
+
+    /**
+     * gen_map
+  	 * 
+  	 * for each size specified in settings file, create row of cells
+  	 */
+
+
+
+class Player;
+    /**
+     * init
+     * 
+     * create a new player with given starting values
+     */
+
+	/**
+	 * render
+	 * 
+	 * draw ourself
+	 */
+
+	/**
+	 * attack
+	 * 
+	 * send pop from selected cell to clicked cell (enemy or ally)
+	 */
+
+  	/**
+  	 * communicate
+  	 * 
+  	 * send keyboard and mouse inputs to server
+  	 */
+
+
+
+class Cell;
+    /**
+     * init
+     * 
+     * create circle that represents a cell with a specific population (pop)
+     * using settings from data
+     */
+
+  	/**
+  	 * migrate
+  	 * 
+  	 * lose pop and send on a path towards a target cell
+  	 */
+
+/*
+ * main
+ * 
+ * create new game object
+ * 
+ */
+
+
+
+
+
+
+

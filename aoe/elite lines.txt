@@ -1,0 +1,3 @@
+import os
+dir_path = os.path.dirname(os.path.realpath(__file__))
+os.environ["PYSDL2_DLL_PATH"] = dir_path

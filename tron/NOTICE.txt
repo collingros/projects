@@ -1,0 +1,8 @@
+most of the stuff here is the same program, only different versions
+
+almost none of it is in order
+
+used SDL2 for both linux and windows versions
+same game made first in python, then c
+
+**NEITHER version is complete
